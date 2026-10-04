@@ -1,10 +1,12 @@
-NOMYRA Care — Mobile PWA v2
+NOMYRA Care Mobile V3 — Demo cliente
 
-Questa versione distingue in modo esplicito:
-- corsi esterni: apertura sul sito del Provider (es. ECMClub), senza accesso alle credenziali dell'utente;
-- corsi Provider partner: flusso interno dimostrativo con player/tracking;
-- crediti registrati in NOMYRA Care vs posizione ECM ufficiale non sincronizzata.
+Logica prodotto:
+- NOMYRA Care NON riproduce corsi di Provider esterni.
+- Per ogni corso mostra una scheda di orientamento, sintesi informativa, compatibilità e impatto sul piano.
+- Il pulsante principale apre il corso sul sito ufficiale del Provider.
+- Dopo aver completato il corso sul Provider, l’utente può segnarlo come fatto in NOMYRA Care.
+- I crediti così registrati sono tracking personale e NON certificazione ufficiale.
+- I consigli si aggiornano automaticamente in base ai corsi segnati come completati.
+- L’utente può impostare reminder e archiviare attestati.
 
-I corsi ECMClub presenti nel catalogo sono usati come riferimenti reali. Disponibilità, professioni, prezzi e crediti vanno sempre verificati sul Provider al momento dell'iscrizione.
-
-Pubblicazione PWA: caricare il contenuto di questa cartella su hosting HTTPS (GitHub Pages, Cloudflare Pages, Vercel, ecc.).
+Per GitHub Pages: caricare tutti i file di questa cartella nella root del repository e abilitare Pages sulla branch main.
